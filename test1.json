@@ -1,0 +1,12 @@
+{
+"service": {
+  "name": "consul-test",
+  "tags": [
+    "test"
+  ],
+  "check": {
+    "http": "http://ipt.kpi.ua/",
+    "interval": "10s"
+  }
+ }
+}

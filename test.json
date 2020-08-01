@@ -1,0 +1,12 @@
+{
+"service": {
+  "name": "consul-test",
+  "tags": [
+    "test"
+  ],
+  "check": {
+    "http": "https://www.google.com/",
+    "interval": "10s"
+  }
+ }
+}
